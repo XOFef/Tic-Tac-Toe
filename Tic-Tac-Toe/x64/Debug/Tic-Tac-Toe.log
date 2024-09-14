@@ -1,10 +1,4 @@
 ﻿  Tic-Tac-Toe.cpp
-Tic-Tac-Toe.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl instructions(void)" (?instructions@@YAXXZ) в функции main.
-Tic-Tac-Toe.obj : error LNK2019: ссылка на неразрешенный внешний символ "char __cdecl humanPiece(void)" (?humanPiece@@YADXZ) в функции main.
-Tic-Tac-Toe.obj : error LNK2019: ссылка на неразрешенный внешний символ "char __cdecl opponent(char)" (?opponent@@YADD@Z) в функции main.
-Tic-Tac-Toe.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl displayBoard(class std::vector<char,class std::allocator<char> > const &)" (?displayBoard@@YAXAEBV?$vector@DV?$allocator@D@std@@@std@@@Z) в функции main.
-Tic-Tac-Toe.obj : error LNK2019: ссылка на неразрешенный внешний символ "char __cdecl winner(class std::vector<char,class std::allocator<char> > const &)" (?winner@@YADAEBV?$vector@DV?$allocator@D@std@@@std@@@Z) в функции main.
-Tic-Tac-Toe.obj : error LNK2019: ссылка на неразрешенный внешний символ "int __cdecl humanMove(class std::vector<char,class std::allocator<char> > const &,char)" (?humanMove@@YAHAEBV?$vector@DV?$allocator@D@std@@@std@@D@Z) в функции main.
-Tic-Tac-Toe.obj : error LNK2019: ссылка на неразрешенный внешний символ "int __cdecl computerMove(class std::vector<char,class std::allocator<char> > const &,char)" (?computerMove@@YAHAEBV?$vector@DV?$allocator@D@std@@@std@@D@Z) в функции main.
-Tic-Tac-Toe.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl announceWinner(char,char,char)" (?announceWinner@@YAXDDD@Z) в функции main.
-F:\Projects\Tic-Tac-Toe\x64\Debug\Tic-Tac-Toe.exe : fatal error LNK1120: неразрешенных внешних элементов: 8
+F:\Projects\Tic-Tac-Toe\Tic-Tac-Toe\Tic-Tac-Toe.cpp(147,96): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+F:\Projects\Tic-Tac-Toe\Tic-Tac-Toe\Tic-Tac-Toe.cpp(150,96): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Tic-Tac-Toe.vcxproj -> F:\Projects\Tic-Tac-Toe\x64\Debug\Tic-Tac-Toe.exe
